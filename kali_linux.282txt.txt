@@ -1,0 +1,162 @@
+Self-registraion 
+
+https://sb-auth.skillsbuild.org/signup?ngo-id=0107
+
+
+learninf Plan 
+
+https://skills.yourlearning.ibm.com/activity/PLAN-DC0D0568B3BB
+
+NM
+
+https://www.naanmudhalvan.tn.gov.in/
+---------------------------------------------------
+
+VB
+
+https://www.virtualbox.org/wiki/Downloads
+
+kali linux
+
+https://www.osboxes.org/kali-linux/
+---------------------------------------------
+
+username : kali password : kali
+
+
+ctrl+shift+ + = zoom in
+
+ctrl+ - = zoom out
+
+ctrl+L = clear screen
+----------------------------------
+change dir
+
+cd
+
+cd ..
+
+cd <folder_name>
+
+--------------------------
+working with folder
+
+mkdir <name> = mkdir cs282
+
+rmdir <name> = rmdir cs282 -> empty
+
+rm -r <name> = rm -r --> with files
+-----------------------------------
+
+
+file 
+
+touch,leafpad , mousepad,nano,vim
+
+leafpad file.txt
+
+
+---------------------------------------------
+
+list 
+
+
+ls - list
+
+ls *.py
+
+ls *.html
+
+ls *.txt
+
+ls -a - it showing the hidden folder (mkdir .folder_name)
+
+
+ls -laS - file & folders with detail list
+
+
+-------------------------------------------------------------
+
+rm filename - remove single file
+
+rm *.txt - multiple remove
+
+---------------------
+
+man cmd > cmd.txt
+
+cat file
+
+cp <sourec_file> <path(pwd)> copy/paste
+
+cp file.txt /home/kali/Desktop
+
+mv <sourec_file> <path(pwd)>  cut/paste
+
+mv file.txt /home/kali/Desktop
+------------------------------------
+grep -i est  cars.txt
+Echo cmd
+    x=10
+     echo $x
+echo "<html><h1>"hello"</h1></html>"  > index.html 
+--------------------------------------
+
+sudo adduser <user_name> = sudo adduser vignesh
+
+sudo deluser <user_name> = sudo deluser vignesh
+
+
+sudo su <user_name> = sudo su vignesh
+
+
+---------------------------------------
+
+Networking cmd
+
+ping google.com or ping 192.168.0.1
+
+
+ifconfig 
+
+NAT - virtual
+
+bridge - real network
+
+
+nslookup google.com
+-------------------------------------------
+
+Apache server
+
+
+cd /var/www/html
+
+mkdir <name>
+
+leafpad index.html
+
+service apache2 start
+
+ifconfig
+
+service apache2 stop
+
+serice apache2 status
+
+-----------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

